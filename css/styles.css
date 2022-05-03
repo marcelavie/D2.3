@@ -105,9 +105,16 @@ progress::-webkit-progress-bar {
     border-radius: 5px;
     box-shadow: 10px 10px 15px #c6c6c6;
 }
-.footer{
+.final{
     background-color: #00a78e;
     width: 1000px;
     margin: 10px;
+    margin: auto;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 10px;
    
+}
+.footer {
+    width: 100%;
 }
