@@ -91,12 +91,16 @@ progress::-webkit-progress-bar {
     border-radius: 10px;
 }
 .skills{
-    padding: 0 30%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 1000px;
+    padding-left: 200px;
 }
 
 .quadro{
     background-color: white;
-    width: 30%;
+    width: 400px;
     display: inline-block;
     min-height: 200px;
     margin: 5%;
@@ -104,10 +108,34 @@ progress::-webkit-progress-bar {
     padding: 1%;
     border-radius: 5px;
     box-shadow: 10px 10px 15px #c6c6c6;
+    box-sizing: border-box;
 
 
 }
+.quadro i{
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 30px;
+    background-color: #00a78e;
+    width: 130px;
+    height: 90px;
+    border-radius: 10px 10px 0px 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
 
+
+.quadro:hover{
+    color: #817f91;
+}
+.quadro h3{
+    color: #293651;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+}
 h5{
     color: #817f91;
 }
