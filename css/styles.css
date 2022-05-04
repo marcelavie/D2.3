@@ -104,6 +104,12 @@ progress::-webkit-progress-bar {
     padding: 1%;
     border-radius: 5px;
     box-shadow: 10px 10px 15px #c6c6c6;
+
+
+}
+
+h5{
+    color: #817f91;
 }
 .final{
     background-color: #00a78e;
